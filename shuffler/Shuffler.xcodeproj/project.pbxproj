@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C48A1511B5D87F000DBBBF2 /* slotMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C48A1501B5D87F000DBBBF2 /* slotMachineView.swift */; };
+		1C79393B1B594A3A00203CDC /* imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C79393A1B594A3A00203CDC /* imagePicker.swift */; };
+		1CB027BF1B5EBC65005C0DC4 /* slotMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB027BE1B5EBC65005C0DC4 /* slotMachineViewController.swift */; };
+		1CC7E3D81B45AC0400242739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E3D71B45AC0400242739 /* AppDelegate.swift */; };
+		1CC7E3DA1B45AC0400242739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E3D91B45AC0400242739 /* ViewController.swift */; };
+		1CC7E3DD1B45AC0400242739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7E3DB1B45AC0400242739 /* Main.storyboard */; };
+		1CC7E3DF1B45AC0400242739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7E3DE1B45AC0400242739 /* Assets.xcassets */; };
+		1CC7E3E21B45AC0400242739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7E3E01B45AC0400242739 /* LaunchScreen.storyboard */; };
+		1CC7E3ED1B45AC0400242739 /* ShufflerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E3EC1B45AC0400242739 /* ShufflerTests.swift */; };
+		1CC7E3F81B45AC0400242739 /* ShufflerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E3F71B45AC0400242739 /* ShufflerUITests.swift */; };
+		1CC7E3FD1B45AC0400242739 /* Shuffler WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1CC7E3FC1B45AC0400242739 /* Shuffler WatchKit App.app */; };
+		1CC7E4031B45AC0400242739 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7E4011B45AC0400242739 /* Interface.storyboard */; };
+		1CC7E4051B45AC0400242739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7E4041B45AC0400242739 /* Assets.xcassets */; };
+		1CC7E40C1B45AC0400242739 /* Shuffler WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CC7E40B1B45AC0400242739 /* Shuffler WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1CC7E4131B45AC0400242739 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E4121B45AC0400242739 /* InterfaceController.swift */; };
+		1CC7E4151B45AC0400242739 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E4141B45AC0400242739 /* ExtensionDelegate.swift */; };
+		1CC7E4171B45AC0400242739 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E4161B45AC0400242739 /* NotificationController.swift */; };
+		1CC7E4191B45AC0400242739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7E4181B45AC0400242739 /* Assets.xcassets */; };
+		1CC7E42F1B45C41D00242739 /* shuffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7E42E1B45C41D00242739 /* shuffleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC7E3E91B45AC0400242739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC7E3CC1B45AC0400242739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC7E3D31B45AC0400242739;
+			remoteInfo = Shuffler;
+		};
+		1CC7E3F41B45AC0400242739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC7E3CC1B45AC0400242739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC7E3D31B45AC0400242739;
+			remoteInfo = Shuffler;
+		};
+		1CC7E3FE1B45AC0400242739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC7E3CC1B45AC0400242739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC7E3FB1B45AC0400242739;
+			remoteInfo = "Shuffler WatchKit App";
+		};
+		1CC7E40D1B45AC0400242739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC7E3CC1B45AC0400242739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC7E40A1B45AC0400242739;
+			remoteInfo = "Shuffler WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CC7E4201B45AC0400242739 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1CC7E40C1B45AC0400242739 /* Shuffler WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E4241B45AC0400242739 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1CC7E3FD1B45AC0400242739 /* Shuffler WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C48A1501B5D87F000DBBBF2 /* slotMachineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slotMachineView.swift; sourceTree = "<group>"; };
+		1C79393A1B594A3A00203CDC /* imagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagePicker.swift; sourceTree = "<group>"; };
+		1CB027BE1B5EBC65005C0DC4 /* slotMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slotMachineViewController.swift; sourceTree = "<group>"; };
+		1CC7E3D41B45AC0400242739 /* Shuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC7E3D71B45AC0400242739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC7E3D91B45AC0400242739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CC7E3DC1B45AC0400242739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CC7E3DE1B45AC0400242739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC7E3E11B45AC0400242739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CC7E3E31B45AC0400242739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC7E3E81B45AC0400242739 /* ShufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShufflerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC7E3EC1B45AC0400242739 /* ShufflerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShufflerTests.swift; sourceTree = "<group>"; };
+		1CC7E3EE1B45AC0400242739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC7E3F31B45AC0400242739 /* ShufflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShufflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC7E3F71B45AC0400242739 /* ShufflerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShufflerUITests.swift; sourceTree = "<group>"; };
+		1CC7E3F91B45AC0400242739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC7E3FC1B45AC0400242739 /* Shuffler WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shuffler WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC7E4021B45AC0400242739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1CC7E4041B45AC0400242739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC7E4061B45AC0400242739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC7E40B1B45AC0400242739 /* Shuffler WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Shuffler WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC7E4111B45AC0400242739 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1CC7E4121B45AC0400242739 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1CC7E4141B45AC0400242739 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1CC7E4161B45AC0400242739 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1CC7E4181B45AC0400242739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC7E41A1B45AC0400242739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC7E42E1B45C41D00242739 /* shuffleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shuffleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC7E3D11B45AC0400242739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3E51B45AC0400242739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3F01B45AC0400242739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E4081B45AC0400242739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC7E3CB1B45AC0400242739 = {
+			isa = PBXGroup;
+			children = (
+				1CC7E3D61B45AC0400242739 /* Shuffler */,
+				1CC7E3EB1B45AC0400242739 /* ShufflerTests */,
+				1CC7E3F61B45AC0400242739 /* ShufflerUITests */,
+				1CC7E4001B45AC0400242739 /* Shuffler WatchKit App */,
+				1CC7E40F1B45AC0400242739 /* Shuffler WatchKit Extension */,
+				1CC7E3D51B45AC0400242739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC7E3D51B45AC0400242739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E3D41B45AC0400242739 /* Shuffler.app */,
+				1CC7E3E81B45AC0400242739 /* ShufflerTests.xctest */,
+				1CC7E3F31B45AC0400242739 /* ShufflerUITests.xctest */,
+				1CC7E3FC1B45AC0400242739 /* Shuffler WatchKit App.app */,
+				1CC7E40B1B45AC0400242739 /* Shuffler WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC7E3D61B45AC0400242739 /* Shuffler */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E3D71B45AC0400242739 /* AppDelegate.swift */,
+				1CC7E3D91B45AC0400242739 /* ViewController.swift */,
+				1CC7E42E1B45C41D00242739 /* shuffleViewController.swift */,
+				1CC7E3DB1B45AC0400242739 /* Main.storyboard */,
+				1CC7E3DE1B45AC0400242739 /* Assets.xcassets */,
+				1CC7E3E01B45AC0400242739 /* LaunchScreen.storyboard */,
+				1CC7E3E31B45AC0400242739 /* Info.plist */,
+				1C79393A1B594A3A00203CDC /* imagePicker.swift */,
+				1C48A1501B5D87F000DBBBF2 /* slotMachineView.swift */,
+				1CB027BE1B5EBC65005C0DC4 /* slotMachineViewController.swift */,
+			);
+			path = Shuffler;
+			sourceTree = "<group>";
+		};
+		1CC7E3EB1B45AC0400242739 /* ShufflerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E3EC1B45AC0400242739 /* ShufflerTests.swift */,
+				1CC7E3EE1B45AC0400242739 /* Info.plist */,
+			);
+			path = ShufflerTests;
+			sourceTree = "<group>";
+		};
+		1CC7E3F61B45AC0400242739 /* ShufflerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E3F71B45AC0400242739 /* ShufflerUITests.swift */,
+				1CC7E3F91B45AC0400242739 /* Info.plist */,
+			);
+			path = ShufflerUITests;
+			sourceTree = "<group>";
+		};
+		1CC7E4001B45AC0400242739 /* Shuffler WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E4011B45AC0400242739 /* Interface.storyboard */,
+				1CC7E4041B45AC0400242739 /* Assets.xcassets */,
+				1CC7E4061B45AC0400242739 /* Info.plist */,
+			);
+			path = "Shuffler WatchKit App";
+			sourceTree = "<group>";
+		};
+		1CC7E40F1B45AC0400242739 /* Shuffler WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E4121B45AC0400242739 /* InterfaceController.swift */,
+				1CC7E4141B45AC0400242739 /* ExtensionDelegate.swift */,
+				1CC7E4161B45AC0400242739 /* NotificationController.swift */,
+				1CC7E4181B45AC0400242739 /* Assets.xcassets */,
+				1CC7E41A1B45AC0400242739 /* Info.plist */,
+				1CC7E4101B45AC0400242739 /* Supporting Files */,
+			);
+			path = "Shuffler WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1CC7E4101B45AC0400242739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7E4111B45AC0400242739 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC7E3D31B45AC0400242739 /* Shuffler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC7E4251B45AC0400242739 /* Build configuration list for PBXNativeTarget "Shuffler" */;
+			buildPhases = (
+				1CC7E3D01B45AC0400242739 /* Sources */,
+				1CC7E3D11B45AC0400242739 /* Frameworks */,
+				1CC7E3D21B45AC0400242739 /* Resources */,
+				1CC7E4241B45AC0400242739 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC7E3FF1B45AC0400242739 /* PBXTargetDependency */,
+			);
+			name = Shuffler;
+			productName = Shuffler;
+			productReference = 1CC7E3D41B45AC0400242739 /* Shuffler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC7E3E71B45AC0400242739 /* ShufflerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC7E4281B45AC0400242739 /* Build configuration list for PBXNativeTarget "ShufflerTests" */;
+			buildPhases = (
+				1CC7E3E41B45AC0400242739 /* Sources */,
+				1CC7E3E51B45AC0400242739 /* Frameworks */,
+				1CC7E3E61B45AC0400242739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC7E3EA1B45AC0400242739 /* PBXTargetDependency */,
+			);
+			name = ShufflerTests;
+			productName = ShufflerTests;
+			productReference = 1CC7E3E81B45AC0400242739 /* ShufflerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CC7E3F21B45AC0400242739 /* ShufflerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC7E42B1B45AC0400242739 /* Build configuration list for PBXNativeTarget "ShufflerUITests" */;
+			buildPhases = (
+				1CC7E3EF1B45AC0400242739 /* Sources */,
+				1CC7E3F01B45AC0400242739 /* Frameworks */,
+				1CC7E3F11B45AC0400242739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC7E3F51B45AC0400242739 /* PBXTargetDependency */,
+			);
+			name = ShufflerUITests;
+			productName = ShufflerUITests;
+			productReference = 1CC7E3F31B45AC0400242739 /* ShufflerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1CC7E3FB1B45AC0400242739 /* Shuffler WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC7E4211B45AC0400242739 /* Build configuration list for PBXNativeTarget "Shuffler WatchKit App" */;
+			buildPhases = (
+				1CC7E3FA1B45AC0400242739 /* Resources */,
+				1CC7E4201B45AC0400242739 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC7E40E1B45AC0400242739 /* PBXTargetDependency */,
+			);
+			name = "Shuffler WatchKit App";
+			productName = "Shuffler WatchKit App";
+			productReference = 1CC7E3FC1B45AC0400242739 /* Shuffler WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1CC7E40A1B45AC0400242739 /* Shuffler WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC7E41D1B45AC0400242739 /* Build configuration list for PBXNativeTarget "Shuffler WatchKit Extension" */;
+			buildPhases = (
+				1CC7E4071B45AC0400242739 /* Sources */,
+				1CC7E4081B45AC0400242739 /* Frameworks */,
+				1CC7E4091B45AC0400242739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shuffler WatchKit Extension";
+			productName = "Shuffler WatchKit Extension";
+			productReference = 1CC7E40B1B45AC0400242739 /* Shuffler WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC7E3CC1B45AC0400242739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bowen She";
+				TargetAttributes = {
+					1CC7E3D31B45AC0400242739 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B3GUS8R95C;
+					};
+					1CC7E3E71B45AC0400242739 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1CC7E3D31B45AC0400242739;
+					};
+					1CC7E3F21B45AC0400242739 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1CC7E3D31B45AC0400242739;
+					};
+					1CC7E3FB1B45AC0400242739 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1CC7E40A1B45AC0400242739 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1CC7E3CF1B45AC0400242739 /* Build configuration list for PBXProject "Shuffler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC7E3CB1B45AC0400242739;
+			productRefGroup = 1CC7E3D51B45AC0400242739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC7E3D31B45AC0400242739 /* Shuffler */,
+				1CC7E3E71B45AC0400242739 /* ShufflerTests */,
+				1CC7E3F21B45AC0400242739 /* ShufflerUITests */,
+				1CC7E3FB1B45AC0400242739 /* Shuffler WatchKit App */,
+				1CC7E40A1B45AC0400242739 /* Shuffler WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC7E3D21B45AC0400242739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E3E21B45AC0400242739 /* LaunchScreen.storyboard in Resources */,
+				1CC7E3DF1B45AC0400242739 /* Assets.xcassets in Resources */,
+				1CC7E3DD1B45AC0400242739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3E61B45AC0400242739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3F11B45AC0400242739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3FA1B45AC0400242739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E4051B45AC0400242739 /* Assets.xcassets in Resources */,
+				1CC7E4031B45AC0400242739 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E4091B45AC0400242739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E4191B45AC0400242739 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC7E3D01B45AC0400242739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E3DA1B45AC0400242739 /* ViewController.swift in Sources */,
+				1C79393B1B594A3A00203CDC /* imagePicker.swift in Sources */,
+				1CC7E42F1B45C41D00242739 /* shuffleViewController.swift in Sources */,
+				1C48A1511B5D87F000DBBBF2 /* slotMachineView.swift in Sources */,
+				1CC7E3D81B45AC0400242739 /* AppDelegate.swift in Sources */,
+				1CB027BF1B5EBC65005C0DC4 /* slotMachineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3E41B45AC0400242739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E3ED1B45AC0400242739 /* ShufflerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E3EF1B45AC0400242739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E3F81B45AC0400242739 /* ShufflerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC7E4071B45AC0400242739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC7E4171B45AC0400242739 /* NotificationController.swift in Sources */,
+				1CC7E4151B45AC0400242739 /* ExtensionDelegate.swift in Sources */,
+				1CC7E4131B45AC0400242739 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC7E3EA1B45AC0400242739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC7E3D31B45AC0400242739 /* Shuffler */;
+			targetProxy = 1CC7E3E91B45AC0400242739 /* PBXContainerItemProxy */;
+		};
+		1CC7E3F51B45AC0400242739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC7E3D31B45AC0400242739 /* Shuffler */;
+			targetProxy = 1CC7E3F41B45AC0400242739 /* PBXContainerItemProxy */;
+		};
+		1CC7E3FF1B45AC0400242739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC7E3FB1B45AC0400242739 /* Shuffler WatchKit App */;
+			targetProxy = 1CC7E3FE1B45AC0400242739 /* PBXContainerItemProxy */;
+		};
+		1CC7E40E1B45AC0400242739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC7E40A1B45AC0400242739 /* Shuffler WatchKit Extension */;
+			targetProxy = 1CC7E40D1B45AC0400242739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CC7E3DB1B45AC0400242739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC7E3DC1B45AC0400242739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC7E3E01B45AC0400242739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC7E3E11B45AC0400242739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC7E4011B45AC0400242739 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC7E4021B45AC0400242739 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC7E41B1B45AC0400242739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC7E41C1B45AC0400242739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC7E41E1B45AC0400242739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Shuffler WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdenSpoon.PhotoShuffler.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1CC7E41F1B45AC0400242739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Shuffler WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdenSpoon.PhotoShuffler.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1CC7E4221B45AC0400242739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Shuffler_WatchKit_Extension;
+				INFOPLIST_FILE = "Shuffler WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = AdenSpoon.PhotoShuffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1CC7E4231B45AC0400242739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Shuffler_WatchKit_Extension;
+				INFOPLIST_FILE = "Shuffler WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = AdenSpoon.PhotoShuffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1CC7E4261B45AC0400242739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Shuffler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdenSpoon.PhotoShuffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CC7E4271B45AC0400242739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Shuffler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdenSpoon.PhotoShuffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CC7E4291B45AC0400242739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShufflerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ShufflerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuffler.app/Shuffler";
+			};
+			name = Debug;
+		};
+		1CC7E42A1B45AC0400242739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShufflerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ShufflerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuffler.app/Shuffler";
+			};
+			name = Release;
+		};
+		1CC7E42C1B45AC0400242739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShufflerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ShufflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shuffler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1CC7E42D1B45AC0400242739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShufflerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ShufflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shuffler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC7E3CF1B45AC0400242739 /* Build configuration list for PBXProject "Shuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC7E41B1B45AC0400242739 /* Debug */,
+				1CC7E41C1B45AC0400242739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC7E41D1B45AC0400242739 /* Build configuration list for PBXNativeTarget "Shuffler WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC7E41E1B45AC0400242739 /* Debug */,
+				1CC7E41F1B45AC0400242739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC7E4211B45AC0400242739 /* Build configuration list for PBXNativeTarget "Shuffler WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC7E4221B45AC0400242739 /* Debug */,
+				1CC7E4231B45AC0400242739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC7E4251B45AC0400242739 /* Build configuration list for PBXNativeTarget "Shuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC7E4261B45AC0400242739 /* Debug */,
+				1CC7E4271B45AC0400242739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC7E4281B45AC0400242739 /* Build configuration list for PBXNativeTarget "ShufflerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC7E4291B45AC0400242739 /* Debug */,
+				1CC7E42A1B45AC0400242739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC7E42B1B45AC0400242739 /* Build configuration list for PBXNativeTarget "ShufflerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC7E42C1B45AC0400242739 /* Debug */,
+				1CC7E42D1B45AC0400242739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC7E3CC1B45AC0400242739 /* Project object */;
+}
